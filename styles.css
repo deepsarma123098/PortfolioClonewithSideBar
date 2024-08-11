@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bricolage+Grotesque&family=DM+Sans:opsz,wght@9..40,300;9..40,500&family=Fira+Sans&family=Montserrat:ital,wght@1,600&family=Poppins:wght@200;400&family=Roboto+Mono&family=Roboto+Slab:wght@300;400&family=Rubik:wght@300;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bricolage+Grotesque&family=DM+Sans:opsz,wght@9..40,300;9..40,500&family=Fira+Sans&family=Montserrat:ital,wght@1,600&family=Poppins:wght@200;400&family=Roboto+Mono&family=Roboto+Slab:wght@300;400&family=Rubik:wght@300;500&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 2px solid black;
+  
+}
+
+.sidebar {
+
+   position: absolute;
+   background-color: rgb(234, 231, 231);
+   /* width: 220px; */
+   font-family: 'Fira Sans',sans-serif;
+   height: 100vh;
+   transition: transform 0.1s ease-in;
+
+}
+
+.sidebar nav { 
+
+   padding: 45px;
+}
+
+.sidebar nav li {
+
+    list-style: none;
+    font-size: 22px;
+    padding: 25px 0;
+}
+
+.sidebar nav li a{
+
+   text-decoration: none;
+   color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 87vw;
+ 
+    
+
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+/* background-color: rgb(0, 255, 98); */
+height: 50vh;
+width: 80vw;
+ margin: 150px 40px;  /*edited by me */
+display: flex;
+justify-content: space-around;
+font-family: "Source Code Pro", monospace;
+}
+
+.devInfo { 
+    margin: 0 20px; /*added by me */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro',monospace;
+
+
+}
+
+.hello { 
+    font-size: 45px;
+
+}
+
+
+.name {
+font-size: 45px;
+font-weight: bold;
+font-family: 'Fira Sans',sans-serif;
+
+}
+
+.about { 
+font-size: 35px;
+}
+
+.moreabout {
+    /* padding:2rem 0; */
+    font-size: 15px;
+    margin-top: 23px;
+    font-family: 'Fira Sans',sans-serif;
+}
+
+.buttons {
+    margin-top: 27px;
+}
+
+.btn { 
+   /* margin: 13px 3px; */
+   padding:9px 15px;
+   border-radius: 22px;
+   color:#61677A;
+   background-color:#A0E9FF ;
+   font-weight: bold;
+   font-size: 15px;
+   margin: 0 3px;
+   cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover { 
+    color:#A0E9FF  ;
+   background-color:white;
+}
+
+.devPic img {
+    height: 50vh;
+}
+
+.contactForm { 
+     padding: 0 34px;
+     padding-top: 89px;
+     font-family: 'Fira Sans',sans-serif;
+     margin: 0 60px;
+}
+
+/* .container1 {
+    background-color: #EAD7BB;
+} */
+.contactForm h1{
+    font-family: 'Source Code Pro',monospace; 
+    padding: 12px 0;
+   
+}
+
+.contactForm form div  { 
+
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactForm form div input {
+    width: 28vw;
+    border-radius: 5px;
+    margin: 7px 0 0 0;
+    padding: 3px;
+    
+}
+
+#emailHelp{ 
+    font-size: 12px;
+    color:rgb(164, 164, 244);
+    margin:0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+
+}
+
+#form-check input {
+    width: 25px;
+    margin: 2px 0;
+}
+
+
+h1 {
+    font-family: 'Fira Sans',sans-serif;
+    margin: 23px;
+}
+
+p { 
+    font-family: 'Source Code Pro',monospace;
+}
+
+.intro{
+    margin: 70px 100px;
+}
+
+.intro h2{
+    font-family: 'Fira Sans',sans-serif;
+    margin: 12px;
+}
+
+.intro p { 
+    font-family: 'Source Code Pro',monospace;
+    margin: 12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro',monospace;
+    font-weight: 900;
+    margin-left: 13px;
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred{ 
+  width: 268px;
+  background-color: blueviolet;
+}
+
+.fifty { 
+    width: 134px;
+    background-color: aqua;
+}
+
+.t5 { 
+    width: 67px;
+    background-color: yellow;
+}
+
+
+.sidebarGo {
+    transform: translate(-443px,0);
+    position: absolute;
+}
+.hamburger { 
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 10px;
+}
+
+.ham{
+    margin-left: 5px;
+}
+
+.cross{
+    margin-left: 160px;
+
+}
+
+@media (max-width:1200px){
+  /* *{
+    background-color: rgb(250, 155, 155);
+   } */
+
+   /* .sidebar{
+    transform: translate(-443px,0);
+    position: absolute;
+   } */
+
+   .devPic{
+    display: none;
+   }
+
+}
+    
