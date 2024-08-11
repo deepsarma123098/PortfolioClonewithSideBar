@@ -126,6 +126,8 @@ font-size: 35px;
 
 .devPic img {
     height: 50vh;
+    border: 2px solid rgba(28, 26, 26, 0.584);
+    border-radius: 50px;
 }
 
 .contactForm { 
